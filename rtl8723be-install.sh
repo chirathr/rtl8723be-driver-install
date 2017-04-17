@@ -1,16 +1,10 @@
-# install rtlwifi-new-dkms
-
-sudo add-apt-repository -y ppa:hanipouspilot/rtlwifi
-sudo apt-get update
-sudo apt-get -y install rtlwifi-new-dkms linux-firmware
-
 # install additional dependencies
 
-sudo apt-get install linux-headers-$(uname -r) gcc g++ build-essential dkms git
+sudo apt-get install linux-firmware linux-headers-$(uname -r) gcc g++ build-essential dkms git
 
 # clone latest drivers
 
-git clone https://github.com/lwfinger/rtlwifi_new/tree/master
+git clone https://github.com/lwfinger/rtlwifi_new.git
 
 # make and install realtek driver
 
