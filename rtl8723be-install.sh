@@ -9,7 +9,7 @@ git clone https://github.com/lwfinger/rtlwifi_new.git
 # make and install realtek driver
 
 cd rtlwifi_new
-make -j2
+make -j4
 sudo make install
 
 
